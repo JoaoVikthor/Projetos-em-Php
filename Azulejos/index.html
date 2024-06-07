@@ -3,24 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Azulejos</title>
 </head>
 <body>
-    
-<h1>Sistema dimensão Azulejos</h1>
+   <div class="azul">
 
-<form method="get" action="azul.php">
-<h3>Entre com os dados de:</h3> <br>
+<h1>System Dimensional <br> <span style="padding-left: 75px;">of Azulejos </span><box-icon name='edit' type='solid' ></box-icon> </h1>
+<div class="centro">
+    <form method="get" action="azul.php">
+<h3>Entre com os dados de:</h3> 
 <h3>Comprimento :</h3>
-<input type="number" name="com" placeholder="Comprimento">
+<input type="number" name="com" placeholder="Comprimento" required>
 <h3>Largura :</h3>
-<input type="number" name="lar" placeholder="Largura">
+<input type="number" name="lar" placeholder="Largura" required>
 <h3>Altura :</h3>
-<input type="number" name="al" placeholder="Altura">
+<input type="number" name="al" placeholder="Altura" required>
 <br><br>
 <input type="submit" value="calcular">
-
+<br><br>
 </form>
+</div>
 
+
+ </div> 
+ <script src="https://unpkg.com/boxicons@2.1.3/dist/boxicons.js"></script>
 </body>
 </html>
