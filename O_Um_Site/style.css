@@ -1,0 +1,40 @@
+@font-face {
+    font-family: ring;
+    src: url(./ringbearer/RINGM___.TTF);
+}
+
+body {
+    width: auto;
+    height: auto;
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-shadow: black 5px 5px 5px;
+    font-family: ring;
+    background-image: url(./_fundo/wp403994-wallpaper-lord-of-the-rings.jpg);
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+a {
+    text-shadow: black 5px 5px 5px;
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: x-large;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.fundo {
+    width: 1090px;
+    height:auto;
+    opacity: 0.7;
+}

@@ -1,0 +1,15 @@
+  @font-face {
+        font-family: giz;
+        src: url(./eraser-font/EraserDust-p70d.ttf);
+    }
+
+
+    body {
+        background-color: #1c1e1f;
+        color: antiquewhite;
+        text-align: center;
+        font-family: sans-serif;
+        margin-top: 350px;
+        font-family: giz;
+        font-size: x-large;
+    }

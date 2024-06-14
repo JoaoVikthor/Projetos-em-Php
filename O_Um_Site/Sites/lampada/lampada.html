@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contador de lampadas</title>
+</head>
+
+<body>
+
+  <div style="text-align: center; box-shadow: 5px 5px 15px;padding: 150px; font-family:monospace;font-size: larger;">
+    <h1> <span style="color: red;">Contador de lâmpadas</span><img
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAK5JREFUSEvtlLENwjAQRZ9HoAhFxBAps00KCpaKIoZhBEZIihSZAWQJI8XE+jaWaYhb3/139+90hsLPFNZHAR6vAkJx6v8PANkj8r11nuYKv3V/DnCVf9vJx7ap9Uu1agdIx6ItmoBayq0DbM7JzwkN+Qp0iYABOMcCKuAOHCMhI9AASyzAxlmLeqAFDgGQFbwBF2DeilHn2s+R5zmlg62CdoDcmeIWyQpyh5wMeAKqbh0ZFCjs2QAAAABJRU5ErkJggg==" />
+    </h1>
+
+    <form action="lampadas.php" method="get">
+      <h4>Digite a Potencia em Watts</h4>
+      <input type="number" name="wat" placeholder="Digite os Watts" required step="0.001">
+      <br><br>
+      <h4>Digite a Largura</h4>
+      <input type="number" name="lar" placeholder="Digite a Largura " required step="0.001">
+      <br><br>
+      <h4>Digite o Comprimento</h4>
+      <input type="number" name="comp" placeholder="Digite o Comprimento " required step="0.001">
+      <br><br>
+      <input type="submit" value=Calcular>
+      <br><br>
+      <a href="../../index.html"><box-icon name='arrow-back'></box-icon></a>
+      
+      <script src="https://unpkg.com/boxicons@2.1.3/dist/boxicons.js"></script>
+    </form>
+  </div>
+
+</body>
+
+</html>

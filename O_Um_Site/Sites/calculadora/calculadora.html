@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div
+        style="box-shadow: 2px 2px 15px; padding-left: 850px ; padding-bottom: 350px; padding-top: 300px;margin: 50px;">
+
+        <h1>Calculadora</h1>
+
+        <form action="calc.php" method="get">
+
+            <!--Campo 01 -->
+            <input type="number" name="campo01" placeholder="Valor 01" required>
+            <br><br>
+
+            <!--Seleção-->
+
+            <fieldset>
+                <legend>Please select your preferred contact method:</legend>
+                <div>
+                    <input type="radio" id="operacao" name="oper" value="+" />
+                    <label for="soma">Soma</label>
+
+                    <input type="radio" id="operacao" name="oper" value="-" />
+                    <label for="subtracao">Subtração</label>
+
+                    <input type="radio" id="operacao" name="oper" value="*" />
+                    <label for="multiplicacao">Multiplicação</label>
+
+                    <input type="radio" id="Divisão" name="oper" value="/" />
+                    <label for="multiplicacao">Divisão</label>
+
+                </div>
+
+            </fieldset>
+
+            <!--Campo 02 -->
+
+            <br><br>
+            <input type="number" name="campo02" placeholder="Valor 02" required>
+            <br><br>
+
+            <!--Botão de Submit -->
+
+            <input type="submit" name="botao" value="Calcular">
+            <br><br>
+            <a href="../../index.html"><box-icon name='arrow-back'></box-icon></a>
+        </form>
+
+    </div>
+
+
+
+
+    <script src="https://unpkg.com/boxicons@2.1.3/dist/boxicons.js"></script>
+
+</body>
+
+</html>
